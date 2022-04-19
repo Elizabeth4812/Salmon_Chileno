@@ -1,0 +1,86 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar{
+    background-color: #ad035e;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-family: oswald;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#Hero-Section{
+    background-image: url("../img/bg_hero.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+#Hero-Section div{
+    position: absolute;
+    bottom: 205px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.hero-line{
+    width: 345px;
+}
+
+#Hero-Section h1{
+    font-family: "Oswald";
+    font-size: 72px;
+}
+
+#Hero-Section h1:first-child{
+    font-weight: 200;
+}
+
+#Hero-Section h1:last-child{
+    font-weight: 900;
+}
+
+#Sobre-Mi{
+    color:blue
+    font-family:"Roboto";
+    line-height: 3;
+}
+
+#Experiencia div h1{
+    font-family: "Oswald";
+    font-size: 52px;
+}
+#Experiencia i{
+    color:#ad035e;
+
+}
+
+#Experiencia div:last-child article h4: :first-child{
+    font-family:"Roboto";
+}
+
+
+
+#Experiencia div:last-child{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+
+}
+
+#Trabajos {
+    background-color: #ad035e;
+    font-family: "Oswald";
+}
+
+#Trabajos h1 {
+    font-size: 52px;
+}
